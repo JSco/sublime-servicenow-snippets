@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+var xxx = new GlideRecord($1);
+xxx.addQuery($2);
+xxx.query();
+
+if (xxx.next()) {
+  $3
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>grq</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+	<description>ServiceNow GlideRecord Query</description>
+</snippet>
