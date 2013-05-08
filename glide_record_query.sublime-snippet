@@ -1,11 +1,12 @@
 <snippet>
     <content><![CDATA[
-var xxx = new GlideRecord($1);
+var xxx = new GlideRecord('${1:cmdb_ci}');
+xxx.setLimit(10);
 xxx.addQuery($2);
 xxx.query();
 
 if (xxx.next()) {
-  $3
+  ${3:gs.print(xxx.name);}
 }
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
