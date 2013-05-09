@@ -1,0 +1,7 @@
+var ScripIncludeName = Class.create();
+ScripIncludeName.prototype = {
+    initialize: function() {
+    },
+
+    type: 'ScripIncludeName'
+}
