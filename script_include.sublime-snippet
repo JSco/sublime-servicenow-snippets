@@ -1,7 +1,16 @@
-var ScripIncludeName = Class.create();
-ScripIncludeName.prototype = {
+<snippet>
+    <content><![CDATA[
+var ${1:ScripIncludeName} = Class.create();
+${1:ScripIncludeName}.prototype = {
     initialize: function() {
     },
 
-    type: 'ScripIncludeName'
+    type: '${1:ScriptIncludeName}'
 }
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>scriptinc</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+	<description>ServiceNow Script Include Template</description>
+</snippet>
