@@ -12,8 +12,8 @@ A set of snippets for ServiceNow in Sublime Text - usable via tabcompletion
 
 **Usage:**
 
-||Tab trigger||
-||Description|
-||grq|GlideRecord Standard Query|
-||erq|GlideRecord Encoded Query|
+Tab trigger
+Description
+grq|GlideRecord Standard Query
+erq|GlideRecord Encoded Query
 
