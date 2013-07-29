@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+var queryString = '$1';
+var xxx = new GlideRecord('${2:cmdb_ci}');
+xxx.setLimit(1);
+xxx.addEncodedQuery(queryString);
+xxx.query();
+
+if (xxx.next()) {
+  ${3:gs.print(xxx.name);}
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>erq</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+	<description>ServiceNow GlideRecord Encoded Query</description>
+</snippet>
