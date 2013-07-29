@@ -11,11 +11,9 @@ A set of snippets for ServiceNow in Sublime Text - usable via tabcompletion
 4. Copy all cloned files in that directory
 
 **Usage:**
-<table>
-  <tr><th>Tab trigger</th>
-	<th>Description</th></tr>
-	<tr><td>grq</td>
-	<td>GlideRecord Standard Query</td></tr>
-	<tr><td>erq</td>
-	<td>GlideRecord Encoded Query</td></tr>
-</table>
+
+||Tab trigger||
+||Description|
+||grq|GlideRecord Standard Query|
+||erq|GlideRecord Encoded Query|
+
