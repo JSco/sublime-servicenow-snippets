@@ -18,6 +18,8 @@ A set of snippets for ServiceNow in Sublime Text - usable via tabcompletion
 	<td>GlideRecord Standard Query</td></tr>
 	<tr><td>erq</td>
 	<td>GlideRecord Encoded Query</td></tr>
+	<tr><td>scriptinc</td>
+	<td>Script Include Template</td></tr>
 </table>
 
 
