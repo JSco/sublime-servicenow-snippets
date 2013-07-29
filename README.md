@@ -14,8 +14,8 @@ A set of snippets for ServiceNow in Sublime Text - usable via tabcompletion
 <table>
   <tr><th>Tab trigger</th>
 	<th>Description</th></tr>
-	<tr><td>html5</td>
-	<td>Create blank HTML5 document</td></tr>
-	<tr><td>select</td>
-	<td>Create blank select dropdown</td></tr>
+	<tr><td>grq</td>
+	<td>GlideRecord Standard Query</td></tr>
+	<tr><td>erq</td>
+	<td>GlideRecord Encoded Query</td></tr>
 </table>
