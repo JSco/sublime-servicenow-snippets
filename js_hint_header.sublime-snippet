@@ -1,2 +1,11 @@
+<snippet>
+    <content><![CDATA[
 /*globals current,g_form,gsftSubmit,gs,NYSELogger,action,confirm,JSUtil,GlideRecord,NYSEUtils,target,source,ignore:true,error:true,error_message:true,output_message:true,action,log,status_message:true, BSSCategorization,calculateIncidentPriority*/
 /*jshint -W020, forin:true, noarg:true, noempty:true, eqeqeq:false, bitwise:true, strict:false, undef:true, unused:true, curly:true, browser:true, indent:4, maxerr:50 */
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>jsh</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+	<description>ServiceNow GlideRecord JSHint Header</description>
+</snippet>
