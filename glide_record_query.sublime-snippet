@@ -1,13 +1,14 @@
 <snippet>
     <content><![CDATA[
-var xxx = new GlideRecord('${1:cmdb_ci}');
-xxx.setLimit(10);
-xxx.addQuery($2);
-xxx.query();
-
-if (xxx.next()) {
-  ${3:gs.print(xxx.name);}
-}
+(function() {
+	var ${2:tkt} = new GlideRecord('${1:ticket}');${3:
+	${2:tkt}.setLimit(${4:10});}
+	${2:tkt}.addQuery($5);
+	${2:tkt}.query();
+	${6:while} (${2:tkt}.next()) {
+		$7
+	}
+})();
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>grq</tabTrigger>
