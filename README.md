@@ -7,8 +7,7 @@ A set of snippets for ServiceNow in Sublime Text - usable via tabcompletion
 
 1. Clone this repo
 2. In Sublime Text, go to Preferences > Browse Packages...
-3. In the User directory, create a new directory called `sublime-servicenow-snippets`
-4. Copy all cloned files in that directory
+3. Copy all cloned files under the User directory
 
 **Usage:**
 <table>
