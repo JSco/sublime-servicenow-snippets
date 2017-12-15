@@ -1,14 +1,15 @@
 <snippet>
     <content><![CDATA[
-var queryString = '$1';
-var xxx = new GlideRecord('${2:cmdb_ci}');
-xxx.setLimit(1);
-xxx.addEncodedQuery(queryString);
-xxx.query();
-
-if (xxx.next()) {
-  ${3:gs.print(xxx.name);}
-}
+(function() {
+	var ${3:tkt} = new GlideRecord('${2:ticket}'),
+		queryString = '$1';${4:
+	${3:tkt}.setLimit(${5:10});}
+	${3:tkt}.addEncodedQuery(queryString);
+	${3:tkt}.query();
+	${6:while} (${3:tkt}.next()) {
+		$7
+	}
+})();
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>erq</tabTrigger>
