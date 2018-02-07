@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 gs.print($1);${2:
-$3}
+$3} 
 ]]></content>
 	<tabTrigger>gsp</tabTrigger>
 	<description>ServiceNow GlideSystem Print</description>
